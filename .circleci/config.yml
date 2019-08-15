@@ -65,10 +65,13 @@ jobs:
 
 workflows:
   version: 2
+  commit:
+    jobs:
+      - bilder
   nightly:
     triggers:
       - schedule:
-          cron: "9 47 * * *"
+          cron: "9 54 * * *"
           filters:
             branches:
               only:
