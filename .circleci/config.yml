@@ -71,10 +71,10 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "9 54 * * *"
+          cron: "9 55 * * *"
           filters:
             branches:
               only:
-                - selenium
+                - master
     jobs:
       - bilder
