@@ -1,0 +1,824 @@
+{
+  "id": "f45e38e7-1247-4f48-8544-4dd6f683f43d",
+  "version": "2.0",
+  "name": "Complaint Form",
+  "url": "https://verticdev-cleanenergycouncil.cs58.force.com/ComplaintForm",
+  "tests": [{
+    "id": "cc5effda-cbc9-479d-8df4-cc830b3d4393",
+    "name": "Accredited Installer",
+    "commands": [{
+      "id": "d24709fa-ed26-42d6-88bb-456d95cd99e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://verticdev-cleanenergycouncil.cs58.force.com/ComplaintForm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "933b14a7-cd17-4b93-ac2c-e15911a23f92",
+      "comment": "",
+      "command": "select",
+      "target": "id=natureComplaint",
+      "targets": [],
+      "value": "Make a complaint against an accredited installer"
+    }, {
+      "id": "80fde0a0-4f7e-400a-8f50-e94982fff46a",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49167f2d-20a2-476d-919b-84c208fd5452",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "29bc7a82-89a9-463b-aab0-68fe5440696e",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "8cb8f897-b3ce-4305-88e7-d0d22f868253",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ddd@gmail.com"
+    }, {
+      "id": "23299a65-f528-402a-90c6-40bda4cecc45",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-scope > .ng-invalid",
+      "targets": [
+        ["css=.ng-scope > .ng-invalid", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//group-input/input", "xpath:position"]
+      ],
+      "value": "3778 893 737"
+    }, {
+      "id": "c9915aba-6783-4adc-a98d-bb960e0adf74",
+      "comment": "",
+      "command": "type",
+      "target": "id=streetAddress",
+      "targets": [
+        ["id=streetAddress", "id"],
+        ["css=#streetAddress", "css:finder"],
+        ["xpath=//input[@id='streetAddress']", "xpath:attributes"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "d6f3ce30-356e-4ea7-a26f-7e2462db0786",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingCity",
+      "targets": [
+        ["id=mailingCity", "id"],
+        ["css=#mailingCity", "css:finder"],
+        ["xpath=//input[@id='mailingCity']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "0cc5d7d6-740d-4646-9488-f760d24b6093",
+      "comment": "",
+      "command": "type",
+      "target": "id=postCode",
+      "targets": [
+        ["id=postCode", "id"],
+        ["css=#postCode", "css:finder"],
+        ["xpath=//input[@id='postCode']", "xpath:attributes"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123355677899"
+    }, {
+      "id": "855f9163-f564-446a-996a-ebbd8d8ee563",
+      "comment": "",
+      "command": "click",
+      "target": "id=mailingState",
+      "targets": [
+        ["id=mailingState", "id"],
+        ["css=#mailingState", "css:finder"],
+        ["xpath=//select[@id='mailingState']", "xpath:attributes"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a86560f-986e-408c-abfa-0c6ed3c1d247",
+      "comment": "",
+      "command": "select",
+      "target": "id=mailingState",
+      "targets": [],
+      "value": "label=NT"
+    }, {
+      "id": "4d59895c-e69d-4aaf-aaea-5a0ce2a987c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=installerName",
+      "targets": [
+        ["id=installerName", "id"],
+        ["css=.ng-not-empty #installerName", "css:finder"],
+        ["xpath=//input[@id='installerName']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Selenium1"
+    }, {
+      "id": "fd4d5daf-0cc6-408e-b697-3e28d09f5ec7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-sm-6:nth-child(2) #installerName",
+      "targets": [
+        ["css=.col-sm-6:nth-child(2) #installerName", "css:finder"],
+        ["xpath=(//input[@id='installerName'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "c1fbad32-b5a8-4361-8eae-fe0c925b8c3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[4]/div[4]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sdf"
+    }, {
+      "id": "47d28c7e-8eeb-4205-8269-37858669aa78",
+      "comment": "",
+      "command": "click",
+      "target": "id=state",
+      "targets": [
+        ["id=state", "id"],
+        ["css=#state", "css:finder"],
+        ["xpath=//select[@id='state']", "xpath:attributes"],
+        ["xpath=//div[4]/div[5]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8bdb6b-9fcb-444b-8146-c08dc5e4bdc9",
+      "comment": "",
+      "command": "select",
+      "target": "id=state",
+      "targets": [],
+      "value": "QLD"
+    }, {
+      "id": "cdc41f97-5c1d-491c-8c02-b8c1c4f303e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=systemType",
+      "targets": [
+        ["id=systemType", "id"],
+        ["css=#systemType", "css:finder"],
+        ["xpath=//select[@id='systemType']", "xpath:attributes"],
+        ["xpath=//div[7]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16878b7a-a66d-44e5-be35-e2b58b018b09",
+      "comment": "",
+      "command": "select",
+      "target": "id=systemType",
+      "targets": [],
+      "value": "Stand-alone system"
+    }, {
+      "id": "8485698f-6bbd-480b-9570-e9eb3fd47c11",
+      "comment": "",
+      "command": "click",
+      "target": "id=withBatteries",
+      "targets": [
+        ["id=withBatteries", "id"],
+        ["css=#withBatteries", "css:finder"],
+        ["xpath=//select[@id='withBatteries']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "324a385d-bfc7-42ba-9a5e-c8cacd717686",
+      "comment": "",
+      "command": "select",
+      "target": "id=withBatteries",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "b37ceeab-349f-413a-81a7-a92f0cc975ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=mountingType",
+      "targets": [
+        ["id=mountingType", "id"],
+        ["css=#mountingType", "css:finder"],
+        ["xpath=//select[@id='mountingType']", "xpath:attributes"],
+        ["xpath=//div[8]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb26d5e-b105-444c-8d85-84cd4708d9b7",
+      "comment": "",
+      "command": "select",
+      "target": "id=mountingType",
+      "targets": [],
+      "value": "Tilt frame"
+    }, {
+      "id": "cc2249b3-83fd-47a4-bc42-4f17b9e65c4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > #dateOfInstallation",
+      "targets": [
+        ["css=.input-group > #dateOfInstallation", "css:finder"],
+        ["xpath=//input[@id='dateOfInstallation']", "xpath:attributes"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/input", "xpath:idRelative"],
+        ["xpath=//date-time-picker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca06790-85a7-4460-85c5-7a2c2077400c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .day:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(1) > .day:nth-child(3)", "css:finder"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/div/ul/li/div/div/table/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6447a492-0bfb-4b05-b384-e1931a09979d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Address where system installed",
+      "targets": [
+        ["id=Address where system installed", "id"],
+        ["name=Address where system installed", "name"],
+        ["css=#Address\\ where\\ system\\ installed", "css:finder"],
+        ["xpath=//textarea[@id='Address where system installed']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "www"
+    }, {
+      "id": "22583234-4935-4e26-84fb-a5dee4f9c842",
+      "comment": "",
+      "command": "type",
+      "target": "id=panelBrand",
+      "targets": [
+        ["id=panelBrand", "id"],
+        ["css=#panelBrand", "css:finder"],
+        ["xpath=//input[@id='panelBrand']", "xpath:attributes"],
+        ["xpath=//div[11]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ddd"
+    }, {
+      "id": "9e15eb84-1ac0-4b91-93e9-15a668ea994c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row:nth-child(13) #power",
+      "targets": [
+        ["css=.row:nth-child(13) #power", "css:finder"],
+        ["xpath=(//input[@id='power'])[2]", "xpath:attributes"],
+        ["xpath=//div[13]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "fgf"
+    }, {
+      "id": "d4b8f392-3186-472f-aad5-8a19e04c7559",
+      "comment": "",
+      "command": "type",
+      "target": "id=Summary of main points",
+      "targets": [
+        ["id=Summary of main points", "id"],
+        ["name=Summary of main points", "name"],
+        ["css=#Summary\\ of\\ main\\ points", "css:finder"],
+        ["xpath=//textarea[@id='Summary of main points']", "xpath:attributes"],
+        ["xpath=//div[15]/div/form-group/div/div/div/textarea", "xpath:position"]
+      ],
+      "value": "jjgdds"
+    }, {
+      "id": "f816d07c-cd74-4a64-82e3-00294546cb42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//p/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "426a7cf0-e2e2-4fa1-8413-3687b5024755",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Your dispute has been submitted successfully')]",
+      "targets": [
+        ["css=.ng-scope > h2", "css:finder"],
+        ["xpath=//main/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your dispute has been submitted successfully')]", "xpath:innerText"]
+      ],
+      "value": "15000"
+    }]
+  }, {
+    "id": "bc394dc6-3496-47bb-bdef-d722e0a1821e",
+    "name": "Approved Solar Retailer",
+    "commands": [{
+      "id": "0a1bca3e-e6c8-44cd-9935-ae0d8beebf72",
+      "comment": "",
+      "command": "open",
+      "target": "https://verticdev-cleanenergycouncil.cs58.force.com/ComplaintForm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49101b89-7667-44db-b3a6-b273f0c83d89",
+      "comment": "",
+      "command": "click",
+      "target": "id=natureComplaint",
+      "targets": [
+        ["id=natureComplaint", "id"],
+        ["css=#natureComplaint", "css:finder"],
+        ["xpath=//select[@id='natureComplaint']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5ca2a8-aef2-4a1e-869f-148f13c1700a",
+      "comment": "",
+      "command": "select",
+      "target": "id=natureComplaint",
+      "targets": [],
+      "value": "Make a complaint against an Approved Solar retailer"
+    }, {
+      "id": "c46f32ae-eb65-4cf9-ad31-0923074751ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d20bc8d-68cc-4533-84de-01bb8b104644",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "b5b68f44-04e6-4383-8c5d-9e12307798fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "2a866ee0-c232-4de3-b828-c53757091081",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [],
+      "value": "ddd@gmail.com"
+    }, {
+      "id": "60532984-6d2c-4189-b726-e2cef93f2252",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//group-input/input",
+      "targets": [
+        ["css=.ng-scope > .ng-invalid", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//group-input/input", "xpath:position"]
+      ],
+      "value": "3778 893 737"
+    }, {
+      "id": "7551b8a9-f81b-44e6-910e-3b7eaad72f94",
+      "comment": "",
+      "command": "type",
+      "target": "id=streetAddress",
+      "targets": [
+        ["id=streetAddress", "id"],
+        ["css=#streetAddress", "css:finder"],
+        ["xpath=//input[@id='streetAddress']", "xpath:attributes"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "694ded3e-3407-48da-86db-4a6527b9c237",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingCity",
+      "targets": [
+        ["id=mailingCity", "id"],
+        ["css=#mailingCity", "css:finder"],
+        ["xpath=//input[@id='mailingCity']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "9eb0b0b3-4cff-4ad9-ab96-b4572d243f05",
+      "comment": "",
+      "command": "type",
+      "target": "id=postCode",
+      "targets": [
+        ["id=postCode", "id"],
+        ["css=#postCode", "css:finder"],
+        ["xpath=//input[@id='postCode']", "xpath:attributes"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123355677899"
+    }, {
+      "id": "2cafcfa7-1be4-4d6b-b300-62855c1ee5c5",
+      "comment": "",
+      "command": "select",
+      "target": "id=mailingState",
+      "targets": [],
+      "value": "NT"
+    }, {
+      "id": "fbf3ab39-e267-426f-85da-0409a609c449",
+      "comment": "",
+      "command": "click",
+      "target": "id=companyName",
+      "targets": [
+        ["id=companyName", "id"],
+        ["css=#companyName", "css:finder"],
+        ["xpath=//input[@id='companyName']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "813fdedd-11d2-4112-a71f-f1fcc963a5ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=companyName",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "bf952ed1-03d4-4910-b1f3-62d16c7e2f8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=companyContactName",
+      "targets": [
+        ["id=companyContactName", "id"],
+        ["css=#companyContactName", "css:finder"],
+        ["xpath=//input[@id='companyContactName']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb00c51c-d8ae-477a-808d-95341ad6f1f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[4]/div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11165b0-d7f7-4f78-a823-df86e044784e",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[4]/div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "ad3eac6d-632b-4c25-a42d-f3e71640e52c",
+      "comment": "",
+      "command": "select",
+      "target": "id=state",
+      "targets": [],
+      "value": "NT"
+    }, {
+      "id": "a3ff2d0d-edc7-4eb2-9380-b3ab7db07741",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > #dateOfInstallation",
+      "targets": [
+        ["css=.input-group > #dateOfInstallation", "css:finder"],
+        ["xpath=//input[@id='dateOfInstallation']", "xpath:attributes"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/input", "xpath:idRelative"],
+        ["xpath=//date-time-picker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "082d1d27-67ac-421a-a331-4e11fffaeb64",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .day:nth-child(2)",
+      "targets": [
+        ["css=.input-group > #dateOfInstallation", "css:finder"],
+        ["xpath=//input[@id='dateOfInstallation']", "xpath:attributes"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/input", "xpath:idRelative"],
+        ["xpath=//date-time-picker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff650f1-af84-451b-873b-832473f645d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=If so, what was the retailer's response?",
+      "targets": [
+        ["id=If so, what was the retailer's response?", "id"],
+        ["name=If so, what was the retailer's response?", "name"],
+        ["css=#If\\ so\\,\\ what\\ was\\ the\\ retailer\\'s\\ response\\?", "css:finder"],
+        ["xpath=//textarea[@id=\"If so, what was the retailer's response?\"]", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d04c70-b586-44cd-92f2-b34b0be6babb",
+      "comment": "",
+      "command": "type",
+      "target": "id=If so, what was the retailer's response?",
+      "targets": [
+        ["id=If so, what was the retailer's response?", "id"],
+        ["name=If so, what was the retailer's response?", "name"],
+        ["css=#If\\ so\\,\\ what\\ was\\ the\\ retailer\\'s\\ response\\?", "css:finder"],
+        ["xpath=//textarea[@id=\"If so, what was the retailer's response?\"]", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "eee"
+    }, {
+      "id": "c4c03542-b353-4d93-ab80-02f4e7436a89",
+      "comment": "",
+      "command": "click",
+      "target": "id=Please detail the breach of the code",
+      "targets": [
+        ["id=Please detail the breach of the code", "id"],
+        ["name=Please detail the breach of the code", "name"],
+        ["css=#Please\\ detail\\ the\\ breach\\ of\\ the\\ code", "css:finder"],
+        ["xpath=//textarea[@id='Please detail the breach of the code']", "xpath:attributes"],
+        ["xpath=//div[8]/div/form-group/div/div/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "753966d2-5ce1-4e36-9103-821022364ba5",
+      "comment": "",
+      "command": "type",
+      "target": "id=Please detail the breach of the code",
+      "targets": [
+        ["id=Please detail the breach of the code", "id"],
+        ["name=Please detail the breach of the code", "name"],
+        ["css=#Please\\ detail\\ the\\ breach\\ of\\ the\\ code", "css:finder"],
+        ["xpath=//textarea[@id='Please detail the breach of the code']", "xpath:attributes"],
+        ["xpath=//div[8]/div/form-group/div/div/div/textarea", "xpath:position"]
+      ],
+      "value": "rrr"
+    }, {
+      "id": "0c59ad27-bd6a-4a55-ac5d-ee7abf610325",
+      "comment": "",
+      "command": "click",
+      "target": "id=contactedTheRetailerInvolved",
+      "targets": [
+        ["id=contactedTheRetailerInvolved", "id"],
+        ["css=#contactedTheRetailerInvolved", "css:finder"],
+        ["xpath=//select[@id='contactedTheRetailerInvolved']", "xpath:attributes"],
+        ["xpath=//div[6]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c557cc54-6ade-4cb6-bfad-263d68f42b77",
+      "comment": "",
+      "command": "select",
+      "target": "id=contactedTheRetailerInvolved",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "69c6c9dc-5ec8-4890-805b-c01a8871ec74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//p/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6aed1fe-fbe5-4746-873b-b9568fa982da",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Your complaint has been submitted successfully.')]",
+      "targets": [
+        ["css=.ng-scope > h2", "css:finder"],
+        ["xpath=//main/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your complaint has been submitted successfully.')]", "xpath:innerText"]
+      ],
+      "value": "15000"
+    }]
+  }, {
+    "id": "731617ab-30a4-4ec3-b7d1-24cee88f91f2",
+    "name": "Report a product fault",
+    "commands": [{
+      "id": "f5ed8649-eb82-4446-a3b3-b7a48286b103",
+      "comment": "",
+      "command": "open",
+      "target": "https://verticdev-cleanenergycouncil.cs58.force.com/ComplaintForm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c91757b1-98dd-43d7-9e72-713ae397c78c",
+      "comment": "",
+      "command": "click",
+      "target": "id=natureComplaint",
+      "targets": [
+        ["id=natureComplaint", "id"],
+        ["css=#natureComplaint", "css:finder"],
+        ["xpath=//select[@id='natureComplaint']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb624ff-a6c0-4bb9-ad03-02fd7969d853",
+      "comment": "",
+      "command": "select",
+      "target": "id=natureComplaint",
+      "targets": [],
+      "value": "Report a product fault"
+    }, {
+      "id": "c0c5bc84-c1b7-40c4-a404-ef925ac4149e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(1) .checkbox-text",
+      "targets": [
+        ["css=.col-sm-12:nth-child(1) .checkbox-text", "css:finder"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6fe95a-7dfa-48c3-8984-9d772e444671",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "e14e7f7f-3e3f-4079-9515-5389df9a3486",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "6f50df2a-9b2d-4f06-a734-c4caaeb69dae",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ddd@gmail.com"
+    }, {
+      "id": "9730ccfc-cad9-43e5-926d-b1d08bbb5985",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-scope > .form-control",
+      "targets": [
+        ["css=.ng-scope > .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "3778 893 737"
+    }, {
+      "id": "b76ae779-9d5f-45c3-96f7-5360e1f45392",
+      "comment": "",
+      "command": "type",
+      "target": "id=streetAddress",
+      "targets": [],
+      "value": "ggd"
+    }, {
+      "id": "5a6c85a0-cd9b-46c6-b5f3-41d5cf391663",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingCity",
+      "targets": [
+        ["id=mailingCity", "id"],
+        ["css=#mailingCity", "css:finder"],
+        ["xpath=//input[@id='mailingCity']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "610246d5-758a-4796-95be-eb7e08b77cbf",
+      "comment": "",
+      "command": "type",
+      "target": "id=postCode",
+      "targets": [
+        ["id=postCode", "id"],
+        ["css=#postCode", "css:finder"],
+        ["xpath=//input[@id='postCode']", "xpath:attributes"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123355677899"
+    }, {
+      "id": "78b40b90-29e8-4f50-8b80-9b0ea6f244e1",
+      "comment": "",
+      "command": "select",
+      "target": "id=mailingState",
+      "targets": [],
+      "value": "NT"
+    }, {
+      "id": "9a69e3a5-7e61-4d94-b580-166cc276c9e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > #dateOfInstallation",
+      "targets": [
+        ["css=.input-group > #dateOfInstallation", "css:finder"],
+        ["xpath=//input[@id='dateOfInstallation']", "xpath:attributes"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/input", "xpath:idRelative"],
+        ["xpath=//date-time-picker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e1f8a4-b250-497b-bf80-d615f0e5c302",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .day:nth-child(2)",
+      "targets": [
+        ["css=.input-group > #dateOfInstallation", "css:finder"],
+        ["xpath=//input[@id='dateOfInstallation']", "xpath:attributes"],
+        ["xpath=//date-time-picker[@id='dateOfInstallation']/div/input", "xpath:idRelative"],
+        ["xpath=//date-time-picker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f291b2e4-6233-4ace-b5fd-449e65e748f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//p/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19bcb55e-9b1a-4213-8698-971f36b18f27",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Thank you for reporting this product fault. The fault will be investigated and appropriate action will be taken if deemed necessary.')]",
+      "targets": [
+        ["css=.ng-scope > h2", "css:finder"],
+        ["xpath=//main/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Thank you for reporting this product fault. The fault will be investigated and appropriate action will be taken if deemed necessary.')]", "xpath:innerText"]
+      ],
+      "value": "15000"
+    }]
+  }],
+  "suites": [{
+    "id": "646bb97d-9599-4d14-ac5b-21509202d7ee",
+    "name": "Nature of complaint",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc5effda-cbc9-479d-8df4-cc830b3d4393", "bc394dc6-3496-47bb-bdef-d722e0a1821e", "731617ab-30a4-4ec3-b7d1-24cee88f91f2"]
+  }],
+  "urls": ["https://memberapplication.cleanenergycouncil.org.au/", "https://verticdev-cleanenergycouncil.cs58.force.com/ComplaintForm"],
+  "plugins": []
+}
