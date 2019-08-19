@@ -1,0 +1,520 @@
+{
+  "id": "69883962-5801-446c-8815-6605c1b70770",
+  "version": "2.0",
+  "name": "Code of Conduct Application Form",
+  "url": "https://verticdev-cleanenergycouncil.cs58.force.com/apex/CodeOfConductApplicationForm?skip-files",
+  "tests": [{
+    "id": "5b61adbe-8c40-44a9-a2d4-d318d2f52830",
+    "name": "CoC Application Form",
+    "commands": [{
+      "id": "f83f08c4-45d9-46ce-be5e-18520a3f4797",
+      "comment": "",
+      "command": "open",
+      "target": "https://verticdev-cleanenergycouncil.cs58.force.com/CodeOfConductApplicationForm?skip-files",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "206cb123-76c2-4eb6-b485-df49a0f1db21",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "href"
+    }, {
+      "id": "0759100b-c9e2-48e7-912d-0c59ecb92e87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(5) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(5) .checkbox-text", "css:finder"],
+        ["xpath=//group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd018dcb-6c97-47ee-a47e-ef77f840cb1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .group .col-sm-12:nth-child(2) .checkbox-text",
+      "targets": [
+        ["css=.row > .group .col-sm-12:nth-child(2) .checkbox-text", "css:finder"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e799daaa-b31f-4c57-b5d8-3664346dd8c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=preferredBusinessName",
+      "targets": [
+        ["id=preferredBusinessName", "id"],
+        ["css=#preferredBusinessName", "css:finder"],
+        ["xpath=//input[@id='preferredBusinessName']", "xpath:attributes"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9424a50-c4c1-41d8-bb4b-51d0e6cc60fa",
+      "comment": "",
+      "command": "type",
+      "target": "name=companyName",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "8f43d931-350a-45ed-baa6-b83fdd880779",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0978df67-2672-4fad-bd8b-ab034aead92a",
+      "comment": "",
+      "command": "type",
+      "target": "id=preferredBusinessName",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "8ec8522a-0005-4d25-898e-8d51e1129174",
+      "comment": "",
+      "command": "type",
+      "target": "css=#abn",
+      "targets": [],
+      "value": "28482990542"
+    }, {
+      "id": "ce8107fd-befa-4ed9-9d72-228751453d13",
+      "comment": "",
+      "command": "type",
+      "target": "css=#acn",
+      "targets": [],
+      "value": "4847572037492"
+    }, {
+      "id": "6829dbae-f06c-4611-b10f-568641ae6a34",
+      "comment": "",
+      "command": "type",
+      "target": "css=.c-google-address-autocomplete > #address",
+      "targets": [
+        ["css=.c-google-address-autocomplete > #address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//google-autocomplete[@id='address']/div/input", "xpath:idRelative"],
+        ["xpath=//google-autocomplete/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "76280beb-79c7-4d10-8740-302512a746b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=mailingStreet",
+      "targets": [
+        ["id=mailingStreet", "id"],
+        ["css=#mailingStreet", "css:finder"],
+        ["xpath=//input[@id='mailingStreet']", "xpath:attributes"],
+        ["xpath=//div[12]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "571256da-5bd8-4a2a-8cc2-97c08647a8a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingStreet",
+      "targets": [
+        ["id=mailingStreet", "id"],
+        ["css=#mailingStreet", "css:finder"],
+        ["xpath=//input[@id='mailingStreet']", "xpath:attributes"],
+        ["xpath=//div[12]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "19874121-369c-4864-9a62-a5068db7d88e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingCity",
+      "targets": [
+        ["id=mailingCity", "id"],
+        ["css=#mailingCity", "css:finder"],
+        ["xpath=//input[@id='mailingCity']", "xpath:attributes"],
+        ["xpath=//div[12]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "cb496337-9a53-44c9-90df-57cbe37d4867",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingState",
+      "targets": [
+        ["id=mailingState", "id"],
+        ["css=#mailingState", "css:finder"],
+        ["xpath=//input[@id='mailingState']", "xpath:attributes"],
+        ["xpath=//div[13]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "NT"
+    }, {
+      "id": "ae17071b-d57c-4aa9-b993-6cea90a327f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=mailingPostalCode",
+      "targets": [
+        ["id=mailingPostalCode", "id"],
+        ["css=#mailingPostalCode", "css:finder"],
+        ["xpath=//input[@id='mailingPostalCode']", "xpath:attributes"],
+        ["xpath=//div[13]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123355677899"
+    }, {
+      "id": "7dfef031-ad17-4a16-91ff-f447dc2bc481",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [],
+      "value": "ddd@gmail.com"
+    }, {
+      "id": "75ea81fd-d282-4231-9471-32beb464b526",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "9b8b48c9-affc-46ee-b476-79f9a1c46519",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[26]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "b45d13f0-ca6d-4e11-a99c-49978ebee2a9",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4966782d-3dd7-450c-a65b-efd916ec48a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-6:nth-child(2) .col-sm-12:nth-child(2) .checkbox-text",
+      "targets": [
+        ["css=.col-sm-6:nth-child(2) .col-sm-12:nth-child(2) .checkbox-text", "css:finder"],
+        ["xpath=//div[14]/div[2]/fieldset/sf-multi-picklist-checkboxes/div/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5140aac1-82c9-4414-9c89-66da8cab4c89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(5) .checkbox-text",
+      "targets": [
+        ["css=.col-sm-12:nth-child(5) .checkbox-text", "css:finder"],
+        ["xpath=//div[5]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4864e1fd-b6c9-4606-9728-2d06635d3e9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(7) .checkbox-text",
+      "targets": [
+        ["css=.col-sm-12:nth-child(7) .checkbox-text", "css:finder"],
+        ["xpath=//div[7]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05b2323b-350c-479b-abee-b1facf01486c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[21]/div/form-group/div/div/div/input",
+      "targets": [
+        ["id=Total KW of installed in last 12 months ", "id"],
+        ["name=Total KW of installed in last 12 months ", "name"],
+        ["xpath=//input[@id='Total KW of installed in last 12 months ']", "xpath:attributes"],
+        ["xpath=//div[21]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "34960"
+    }, {
+      "id": "21761faf-6993-43c4-8bd1-7d00a122862e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Number of CEC accredited installers your company employs",
+      "targets": [
+        ["id=Number of CEC accredited installers your company employs", "id"],
+        ["name=Number of CEC accredited installers your company employs", "name"],
+        ["css=#Number\\ of\\ CEC\\ accredited\\ installers\\ your\\ company\\ employs", "css:finder"],
+        ["xpath=//input[@id='Number of CEC accredited installers your company employs']", "xpath:attributes"],
+        ["xpath=//div[22]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "9"
+    }, {
+      "id": "33d7f51c-a69c-4d3c-bfb4-c24d7789c1eb",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[21]/div[2]/form-group/div/div/div/input",
+      "targets": [
+        ["id=Total number of PV installs in last calendar or financial year (whichever is most recent) ", "id"],
+        ["name=Total number of PV installs in last calendar or financial year (whichever is most recent) ", "name"],
+        ["xpath=//input[@id='Total number of PV installs in last calendar or financial year (whichever is most recent) ']", "xpath:attributes"],
+        ["xpath=//div[21]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "fd98493c-e91c-461b-824b-8f7ca428ace5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[22]/div/form-group/div/div/div/input",
+      "targets": [
+        ["id=Number of PV sales people your company employs", "id"],
+        ["name=Number of PV sales people your company employs", "name"],
+        ["css=#Number\\ of\\ PV\\ sales\\ people\\ your\\ company\\ employs", "css:finder"],
+        ["xpath=//input[@id='Number of PV sales people your company employs']", "xpath:attributes"],
+        ["xpath=//div[22]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "17666805-f495-4885-af9c-b17c4e7125d0",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[23]/div/form-group/div/div/div/input",
+      "targets": [
+        ["id=Approx number of CEC accredited installers your company sub-contracts ", "id"],
+        ["name=Approx number of CEC accredited installers your company sub-contracts ", "name"],
+        ["xpath=//input[@id='Approx number of CEC accredited installers your company sub-contracts ']", "xpath:attributes"],
+        ["xpath=//div[23]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "933476cf-b17c-4209-bc68-29f02e88cc04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(32) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(32) .checkbox-text", "css:finder"],
+        ["xpath=//div[2]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d99a2d28-2dbe-44a1-bdc3-f2b8953e8766",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-pristine .col-sm-12:nth-child(2) .checkbox-text",
+      "targets": [
+        ["css=.ng-pristine .col-sm-12:nth-child(2) .checkbox-text", "css:finder"],
+        ["xpath=//div[24]/div/fieldset/sf-multi-picklist-checkboxes/div/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf98194b-d46f-4818-82d1-a6fd5061d13b",
+      "comment": "",
+      "command": "type",
+      "target": "id=position",
+      "targets": [
+        ["id=position", "id"],
+        ["css=#position", "css:finder"],
+        ["xpath=//input[@id='position']", "xpath:attributes"],
+        ["xpath=//div[27]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "djdjd"
+    }, {
+      "id": "461c55f1-1ec1-44f8-8bf0-bc53a415b88c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(52) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(52) .checkbox-text", "css:finder"],
+        ["xpath=//div[38]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08c19b92-9b7c-43cf-8823-7661150284d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(53) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(53) .checkbox-text", "css:finder"],
+        ["xpath=//div[39]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d726d03-d039-44e9-85af-1433c6687dbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(54) .ng-scope",
+      "targets": [
+        ["css=.row:nth-child(54) .ng-scope", "css:finder"],
+        ["xpath=//div[40]/form-group/div/div/label/group-label", "xpath:position"],
+        ["xpath=//group-label[contains(.,' I declare the applicant company is responsible for upholding a minimum five year full system warranty including: ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9e008df-e373-4145-a78f-10c03c3c749c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(56) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(56) .checkbox-text", "css:finder"],
+        ["xpath=//div[42]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e3622b-e984-4c77-9847-defb3ce840cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(57) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(57) .checkbox-text", "css:finder"],
+        ["xpath=//div[43]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1264954c-b879-452c-85f7-61af6f01c4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(59) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(59) .checkbox-text", "css:finder"],
+        ["xpath=//div[45]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b760c7-68c1-4425-81fc-afd095f07296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(61) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(61) .checkbox-text", "css:finder"],
+        ["xpath=//div[47]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f235f65-2a20-42d8-a3d6-d569ce106b48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(62) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(62) .checkbox-text", "css:finder"],
+        ["xpath=//div[48]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da9027b-dd41-4a86-8a16-a127ef870693",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(63) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(63) .checkbox-text", "css:finder"],
+        ["xpath=//div[49]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf5a003-8dbc-41ce-b4cb-2ccb2d1fdd4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(67) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(67) .checkbox-text", "css:finder"],
+        ["xpath=//div[53]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44fdfba2-a76b-4a90-a0c2-09096f3d88cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(66) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(66) .checkbox-text", "css:finder"],
+        ["xpath=//div[52]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "620512d1-0046-4355-bd84-4984aa481afb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(65) .checkbox-text",
+      "targets": [
+        ["css=.row:nth-child(65) .checkbox-text", "css:finder"],
+        ["xpath=//div[51]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a9ae65f-d29f-4345-be66-06f229fc2b30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-empty .is-required .checkbox-text",
+      "targets": [
+        ["css=.ng-empty .is-required .checkbox-text", "css:finder"],
+        ["xpath=//div[50]/form-group/div/div/label/group-label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e6ede5-7d96-411b-ac97-6782e91838ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=preferredBusinessName",
+      "targets": [
+        ["id=preferredBusinessName", "id"],
+        ["css=#preferredBusinessName", "css:finder"],
+        ["xpath=//input[@id='preferredBusinessName']", "xpath:attributes"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "1fe6d048-1889-4910-80f7-7d55acaf9ec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p > .btn",
+      "targets": [
+        ["css=p > .btn", "css:finder"],
+        ["xpath=//p[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GO TO PAYMENT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "284a6955-ee2a-4846-955d-8deb15a04ee1",
+      "comment": "",
+      "command": "pause",
+      "target": "12000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ffc80b2-e090-4372-8a59-4b9e0c814b56",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "new_href"
+    }, {
+      "id": "805f3ec9-38a8-4cfe-a7a9-0d6d511df7b3",
+      "comment": "",
+      "command": "if",
+      "target": "${href} == ${new_href}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25f36642-0e2a-4224-ab3c-427d8d4bc410",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2190480-85b9-4136-af45-2d95bc7013fa",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "979b2a65-fac1-470c-b99b-4934cce81e5f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5b61adbe-8c40-44a9-a2d4-d318d2f52830"]
+  }],
+  "urls": ["https://cec--verticdev--c.cs58.visual.force.com/apex/CodeOfConductApplicationForm?skip-files", "https://verticdev-cleanenergycouncil.cs58.force.com/apex/CodeOfConductApplicationForm?skip-files"],
+  "plugins": []
+}
