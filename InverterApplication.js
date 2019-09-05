@@ -27,7 +27,6 @@ describe('Inverter Application', function() {
     await driver.findElement(By.id("lastName")).sendKeys("Test")
     await driver.findElement(By.id("email")).sendKeys("ddd@gmail.com")
     await driver.findElement(By.css(".c-google-address-autocomplete > #address")).sendKeys("ggd")
-    await driver.findElement(By.id("preferredBusinessName")).click()
     await driver.findElement(By.id("preferredBusinessName")).sendKeys("Selenium")
     await driver.findElement(By.id("mailingStreet")).click()
     await driver.findElement(By.id("mailingStreet")).sendKeys("ggd")
