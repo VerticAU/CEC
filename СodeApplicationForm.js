@@ -21,7 +21,7 @@ describe('Code of Conduct Application Form', function() {
     await driver.findElement(By.id("preferredBusinessName")).click()
     await driver.findElement(By.name("companyName")).sendKeys("Selenium")
     console.log("`set speed` is a no-op in code export, use `pause` instead")
-    await driver.findElement(By.id("preferredBusinessName")).sendKeys("Selenium")
+    await driver.findElement(By.id("preferredBusinessName")).sendKeys("Selnium")
     await driver.findElement(By.css("#abn")).sendKeys("28482990542")
     await driver.findElement(By.css("#acn")).sendKeys("4847572037492")
     await driver.findElement(By.css(".c-google-address-autocomplete > #address")).sendKeys("ggd")
