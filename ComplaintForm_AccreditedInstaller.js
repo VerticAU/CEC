@@ -62,6 +62,6 @@ describe('Accredited Installer', function() {
     await driver.findElement(By.css(".row:nth-child(13) #power")).sendKeys("fgf")
     await driver.findElement(By.id("Summary of main points")).sendKeys("jjgdds")
     await driver.findElement(By.css(".btn")).click()
-    await driver.wait(until.elementLocated(By.xpath("//div[@class='page__content cf")), 20000)
+    await driver.wait(until.elementLocated(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[2]/complaint-form[1]/div[2]/div[1]/main[1]/div[1]/div[1]/h2[1]")), 20000)
   })
 })
