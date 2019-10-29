@@ -3,7 +3,7 @@ const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
 describe('Accredited Installer', function() {
-  this.timeout(50000)
+  this.timeout(80000)
   let driver
   let vars
   beforeEach(async function() {
